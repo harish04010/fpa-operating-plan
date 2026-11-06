@@ -1,0 +1,43 @@
+// Measures for the FY2026 operating plan report.
+// Model: fact_pnl[fiscal_month] -> dim_month, fact_pnl[line] -> dim_line, fact_pnl[division] -> dim_division.
+// Costs are stored as positive amounts; dim_line[sign] says whether higher is good (+1) or bad (-1).
+
+Amount = SUM ( fact_pnl[amount] )
+
+Budget = CALCULATE ( [Amount], fact_pnl[version] = "Budget" )
+Actual = CALCULATE ( [Amount], fact_pnl[version] = "Actual" )
+
+// The 8+4 view: actual months where they exist, forecast after.
+Outlook =
+    CALCULATE ( [Amount], fact_pnl[version] = "Actual", dim_month[is_actual] = TRUE () )
+        + CALCULATE ( [Amount], fact_pnl[version] = "Forecast", dim_month[is_actual] = FALSE () )
+
+Variance = [Actual] - CALCULATE ( [Budget], dim_month[is_actual] = TRUE () )
+Variance % = DIVIDE ( [Variance], ABS ( CALCULATE ( [Budget], dim_month[is_actual] = TRUE () ) ) )
+
+// Positive when the variance is good news, whatever the line.
+Variance (favorable) = [Variance] * SELECTEDVALUE ( dim_line[sign], 1 )
+Fav / Unfav = IF ( [Variance (favorable)] >= 0, "Fav", "Unfav" )
+
+Revenue (Actual) = CALCULATE ( [Actual], dim_line[line] = "Net revenue" )
+Revenue (Budget YTD) = CALCULATE ( [Budget], dim_line[line] = "Net revenue", dim_month[is_actual] = TRUE () )
+
+Gross profit (Actual) =
+    [Revenue (Actual)]
+        - CALCULATE ( [Actual], dim_line[group] = "Cost of sales" )
+Gross margin % (Actual) = DIVIDE ( [Gross profit (Actual)], [Revenue (Actual)] )
+
+EBITDA (Actual) =
+    [Gross profit (Actual)] - CALCULATE ( [Actual], dim_line[group] = "SG&A" )
+EBITDA (Budget YTD) =
+    CALCULATE ( [Budget], dim_line[line] = "Net revenue", dim_month[is_actual] = TRUE () )
+        - CALCULATE ( [Budget], dim_line[group] IN { "Cost of sales", "SG&A" }, dim_month[is_actual] = TRUE () )
+EBITDA (Outlook FY) =
+    CALCULATE ( [Outlook], dim_line[line] = "Net revenue" )
+        - CALCULATE ( [Outlook], dim_line[group] IN { "Cost of sales", "SG&A" } )
+EBITDA margin % (Actual) = DIVIDE ( [EBITDA (Actual)], [Revenue (Actual)] )
+
+// Average unit retail, for the price leg of the bridge.
+AUR (Actual) = DIVIDE ( [Revenue (Actual)], CALCULATE ( [Actual], dim_line[line] = "Units" ) )
+AUR (Budget YTD) = DIVIDE ( [Revenue (Budget YTD)],
+    CALCULATE ( [Budget], dim_line[line] = "Units", dim_month[is_actual] = TRUE () ) )

@@ -1,0 +1,13 @@
+fiscal_month,month,calendar_month,quarter,half,is_actual
+1,Feb,2026-02,Q1,H1,True
+2,Mar,2026-03,Q1,H1,True
+3,Apr,2026-04,Q1,H1,True
+4,May,2026-05,Q2,H1,True
+5,Jun,2026-06,Q2,H1,True
+6,Jul,2026-07,Q2,H1,True
+7,Aug,2026-08,Q3,H2,True
+8,Sep,2026-09,Q3,H2,True
+9,Oct,2026-10,Q3,H2,False
+10,Nov,2026-11,Q4,H2,False
+11,Dec,2026-12,Q4,H2,False
+12,Jan,2027-01,Q4,H2,False

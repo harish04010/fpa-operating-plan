@@ -1,0 +1,641 @@
+fiscal_month,line,division,version,amount
+1,Net revenue,Outdoors,Budget,88.183242
+1,Net revenue,Sports & Recreation,Budget,77.82521
+1,Net revenue,Apparel,Budget,63.267977
+1,Net revenue,Footwear,Budget,106.773783
+1,Product cost,Outdoors,Budget,59.082772
+1,Product cost,Sports & Recreation,Budget,53.310269
+1,Product cost,Apparel,Budget,38.277126
+1,Product cost,Footwear,Budget,69.936828
+1,Freight,All,Budget,6.428408
+1,Store payroll,All,Budget,38.1304
+1,Marketing,All,Budget,10.753607
+1,Occupancy,All,Budget,22.0
+1,Other SG&A,All,Budget,12.0
+1,Depreciation & amortization,All,Budget,12.8
+1,Interest expense,All,Budget,3.1
+1,Units,Outdoors,Budget,2.799468
+1,Units,Sports & Recreation,Budget,2.799468
+1,Units,Apparel,Budget,2.799468
+1,Units,Footwear,Budget,1.969996
+1,Store traffic,All,Budget,9.8
+2,Net revenue,Outdoors,Budget,100.780848
+2,Net revenue,Sports & Recreation,Budget,88.943098
+2,Net revenue,Apparel,Budget,72.306259
+2,Net revenue,Footwear,Budget,122.027181
+2,Product cost,Outdoors,Budget,67.523168
+2,Product cost,Sports & Recreation,Budget,60.926022
+2,Product cost,Apparel,Budget,43.745287
+2,Product cost,Footwear,Budget,79.927803
+2,Freight,All,Budget,7.346752
+2,Store payroll,All,Budget,40.7176
+2,Marketing,All,Budget,12.289836
+2,Occupancy,All,Budget,22.0
+2,Other SG&A,All,Budget,12.0
+2,Depreciation & amortization,All,Budget,12.8
+2,Interest expense,All,Budget,3.1
+2,Units,Outdoors,Budget,3.199392
+2,Units,Sports & Recreation,Budget,3.199392
+2,Units,Apparel,Budget,3.199392
+2,Units,Footwear,Budget,2.251424
+2,Store traffic,All,Budget,11.2
+3,Net revenue,Outdoors,Budget,107.97948
+3,Net revenue,Sports & Recreation,Budget,95.296176
+3,Net revenue,Apparel,Budget,77.470992
+3,Net revenue,Footwear,Budget,130.743408
+3,Product cost,Outdoors,Budget,72.346252
+3,Product cost,Sports & Recreation,Budget,65.277881
+3,Product cost,Apparel,Budget,46.86995
+3,Product cost,Footwear,Budget,85.636932
+3,Freight,All,Budget,7.87152
+3,Store payroll,All,Budget,42.196
+3,Marketing,All,Budget,13.167682
+3,Occupancy,All,Budget,22.0
+3,Other SG&A,All,Budget,12.0
+3,Depreciation & amortization,All,Budget,12.8
+3,Interest expense,All,Budget,3.1
+3,Units,Outdoors,Budget,3.42792
+3,Units,Sports & Recreation,Budget,3.42792
+3,Units,Apparel,Budget,3.42792
+3,Units,Footwear,Budget,2.41224
+3,Store traffic,All,Budget,12.0
+4,Net revenue,Outdoors,Budget,113.378454
+4,Net revenue,Sports & Recreation,Budget,100.060985
+4,Net revenue,Apparel,Budget,81.344542
+4,Net revenue,Footwear,Budget,137.280578
+4,Product cost,Outdoors,Budget,75.963564
+4,Product cost,Sports & Recreation,Budget,68.541775
+4,Product cost,Apparel,Budget,49.213448
+4,Product cost,Footwear,Budget,89.918779
+4,Freight,All,Budget,8.265096
+4,Store payroll,All,Budget,43.3048
+4,Marketing,All,Budget,13.826066
+4,Occupancy,All,Budget,22.0
+4,Other SG&A,All,Budget,12.0
+4,Depreciation & amortization,All,Budget,12.8
+4,Interest expense,All,Budget,3.1
+4,Units,Outdoors,Budget,3.599316
+4,Units,Sports & Recreation,Budget,3.599316
+4,Units,Apparel,Budget,3.599316
+4,Units,Footwear,Budget,2.532852
+4,Store traffic,All,Budget,12.6
+5,Net revenue,Outdoors,Budget,116.077941
+5,Net revenue,Sports & Recreation,Budget,102.443389
+5,Net revenue,Apparel,Budget,83.281316
+5,Net revenue,Footwear,Budget,140.549164
+5,Product cost,Outdoors,Budget,77.77222
+5,Product cost,Sports & Recreation,Budget,70.173722
+5,Product cost,Apparel,Budget,50.385196
+5,Product cost,Footwear,Budget,92.059702
+5,Freight,All,Budget,8.461884
+5,Store payroll,All,Budget,43.8592
+5,Marketing,All,Budget,14.155258
+5,Occupancy,All,Budget,22.0
+5,Other SG&A,All,Budget,12.0
+5,Depreciation & amortization,All,Budget,12.8
+5,Interest expense,All,Budget,3.1
+5,Units,Outdoors,Budget,3.685014
+5,Units,Sports & Recreation,Budget,3.685014
+5,Units,Apparel,Budget,3.685014
+5,Units,Footwear,Budget,2.593158
+5,Store traffic,All,Budget,12.9
+6,Net revenue,Outdoors,Budget,111.578796
+6,Net revenue,Sports & Recreation,Budget,98.472715
+6,Net revenue,Apparel,Budget,80.053358
+6,Net revenue,Footwear,Budget,135.101522
+6,Product cost,Outdoors,Budget,74.757793
+6,Product cost,Sports & Recreation,Budget,67.45381
+6,Product cost,Apparel,Budget,48.432282
+6,Product cost,Footwear,Budget,88.491497
+6,Freight,All,Budget,8.133904
+6,Store payroll,All,Budget,42.9352
+6,Marketing,All,Budget,13.606605
+6,Occupancy,All,Budget,22.0
+6,Other SG&A,All,Budget,12.0
+6,Depreciation & amortization,All,Budget,12.8
+6,Interest expense,All,Budget,3.1
+6,Units,Outdoors,Budget,3.542184
+6,Units,Sports & Recreation,Budget,3.542184
+6,Units,Apparel,Budget,3.542184
+6,Units,Footwear,Budget,2.492648
+6,Store traffic,All,Budget,12.4
+7,Net revenue,Outdoors,Budget,124.176402
+7,Net revenue,Sports & Recreation,Budget,109.590602
+7,Net revenue,Apparel,Budget,89.091641
+7,Net revenue,Footwear,Budget,150.354919
+7,Product cost,Outdoors,Budget,83.198189
+7,Product cost,Sports & Recreation,Budget,75.069563
+7,Product cost,Apparel,Budget,53.900443
+7,Product cost,Footwear,Budget,98.482472
+7,Freight,All,Budget,9.052248
+7,Store payroll,All,Budget,45.5224
+7,Marketing,All,Budget,15.142834
+7,Occupancy,All,Budget,22.0
+7,Other SG&A,All,Budget,12.0
+7,Depreciation & amortization,All,Budget,12.8
+7,Interest expense,All,Budget,3.1
+7,Units,Outdoors,Budget,3.942108
+7,Units,Sports & Recreation,Budget,3.942108
+7,Units,Apparel,Budget,3.942108
+7,Units,Footwear,Budget,2.774076
+7,Store traffic,All,Budget,13.8
+8,Net revenue,Outdoors,Budget,98.98119
+8,Net revenue,Sports & Recreation,Budget,87.354828
+8,Net revenue,Apparel,Budget,71.015076
+8,Net revenue,Footwear,Budget,119.848124
+8,Product cost,Outdoors,Budget,66.317397
+8,Product cost,Sports & Recreation,Budget,59.838057
+8,Product cost,Apparel,Budget,42.964121
+8,Product cost,Footwear,Budget,78.500521
+8,Freight,All,Budget,7.21556
+8,Store payroll,All,Budget,40.348
+8,Marketing,All,Budget,12.070375
+8,Occupancy,All,Budget,22.0
+8,Other SG&A,All,Budget,12.0
+8,Depreciation & amortization,All,Budget,12.8
+8,Interest expense,All,Budget,3.1
+8,Units,Outdoors,Budget,3.14226
+8,Units,Sports & Recreation,Budget,3.14226
+8,Units,Apparel,Budget,3.14226
+8,Units,Footwear,Budget,2.21122
+8,Store traffic,All,Budget,11.0
+9,Net revenue,Outdoors,Budget,95.381874
+9,Net revenue,Sports & Recreation,Budget,84.178289
+9,Net revenue,Apparel,Budget,68.43271
+9,Net revenue,Footwear,Budget,115.49001
+9,Product cost,Outdoors,Budget,63.905856
+9,Product cost,Sports & Recreation,Budget,57.662128
+9,Product cost,Apparel,Budget,41.401789
+9,Product cost,Footwear,Budget,75.645957
+9,Freight,All,Budget,6.953176
+9,Store payroll,All,Budget,39.6088
+9,Marketing,All,Budget,11.631452
+9,Occupancy,All,Budget,22.0
+9,Other SG&A,All,Budget,12.0
+9,Depreciation & amortization,All,Budget,12.8
+9,Interest expense,All,Budget,3.1
+9,Units,Outdoors,Budget,3.027996
+9,Units,Sports & Recreation,Budget,3.027996
+9,Units,Apparel,Budget,3.027996
+9,Units,Footwear,Budget,2.130812
+9,Store traffic,All,Budget,10.6
+10,Net revenue,Outdoors,Budget,120.577086
+10,Net revenue,Sports & Recreation,Budget,106.414063
+10,Net revenue,Apparel,Budget,86.509274
+10,Net revenue,Footwear,Budget,145.996806
+10,Product cost,Outdoors,Budget,80.786648
+10,Product cost,Sports & Recreation,Budget,72.893633
+10,Product cost,Apparel,Budget,52.338111
+10,Product cost,Footwear,Budget,95.627908
+10,Freight,All,Budget,8.789864
+10,Store payroll,All,Budget,44.7832
+10,Marketing,All,Budget,14.703911
+10,Occupancy,All,Budget,22.0
+10,Other SG&A,All,Budget,12.0
+10,Depreciation & amortization,All,Budget,12.8
+10,Interest expense,All,Budget,3.1
+10,Units,Outdoors,Budget,3.827844
+10,Units,Sports & Recreation,Budget,3.827844
+10,Units,Apparel,Budget,3.827844
+10,Units,Footwear,Budget,2.693668
+10,Store traffic,All,Budget,13.4
+11,Net revenue,Outdoors,Budget,160.169562
+11,Net revenue,Sports & Recreation,Budget,141.355994
+11,Net revenue,Apparel,Budget,114.915305
+11,Net revenue,Footwear,Budget,193.936055
+11,Product cost,Outdoors,Budget,107.313607
+11,Product cost,Sports & Recreation,Budget,96.828856
+11,Product cost,Apparel,Budget,69.523759
+11,Product cost,Footwear,Budget,127.028116
+11,Freight,All,Budget,11.676088
+11,Store payroll,All,Budget,52.9144
+11,Marketing,All,Budget,19.532061
+11,Occupancy,All,Budget,22.0
+11,Other SG&A,All,Budget,12.0
+11,Depreciation & amortization,All,Budget,12.8
+11,Interest expense,All,Budget,3.1
+11,Units,Outdoors,Budget,5.084748
+11,Units,Sports & Recreation,Budget,5.084748
+11,Units,Apparel,Budget,5.084748
+11,Units,Footwear,Budget,3.578156
+11,Store traffic,All,Budget,17.8
+12,Net revenue,Outdoors,Budget,91.782558
+12,Net revenue,Sports & Recreation,Budget,81.00175
+12,Net revenue,Apparel,Budget,65.850343
+12,Net revenue,Footwear,Budget,111.131897
+12,Product cost,Outdoors,Budget,61.494314
+12,Product cost,Sports & Recreation,Budget,55.486198
+12,Product cost,Apparel,Budget,39.839458
+12,Product cost,Footwear,Budget,72.791392
+12,Freight,All,Budget,6.690792
+12,Store payroll,All,Budget,38.8696
+12,Marketing,All,Budget,11.19253
+12,Occupancy,All,Budget,22.0
+12,Other SG&A,All,Budget,12.0
+12,Depreciation & amortization,All,Budget,12.8
+12,Interest expense,All,Budget,3.1
+12,Units,Outdoors,Budget,2.913732
+12,Units,Sports & Recreation,Budget,2.913732
+12,Units,Apparel,Budget,2.913732
+12,Units,Footwear,Budget,2.050404
+12,Store traffic,All,Budget,10.2
+1,Net revenue,Outdoors,Actual,80.116
+1,Net revenue,Sports & Recreation,Actual,74.139
+1,Net revenue,Apparel,Actual,59.495
+1,Net revenue,Footwear,Actual,111.796
+1,Product cost,Outdoors,Actual,53.998
+1,Product cost,Sports & Recreation,Actual,50.785
+1,Product cost,Apparel,Actual,35.995
+1,Product cost,Footwear,Actual,73.227
+1,Freight,All,Actual,6.004
+1,Store payroll,All,Actual,37.457
+1,Marketing,All,Actual,10.417
+1,Occupancy,All,Actual,22.088
+1,Other SG&A,All,Actual,11.694
+1,Depreciation & amortization,All,Actual,12.8
+1,Interest expense,All,Actual,3.1
+1,Units,Outdoors,Actual,2.4984
+1,Units,Sports & Recreation,Actual,2.6146
+1,Units,Apparel,Actual,2.5759
+1,Units,Footwear,Actual,1.9948
+1,Store traffic,All,Actual,9.2348
+2,Net revenue,Outdoors,Actual,91.487
+2,Net revenue,Sports & Recreation,Actual,84.662
+2,Net revenue,Apparel,Actual,67.939
+2,Net revenue,Footwear,Actual,127.664
+2,Product cost,Outdoors,Actual,61.662
+2,Product cost,Sports & Recreation,Actual,57.994
+2,Product cost,Apparel,Actual,41.103
+2,Product cost,Footwear,Actual,83.62
+2,Freight,All,Actual,6.856
+2,Store payroll,All,Actual,39.715
+2,Marketing,All,Actual,11.896
+2,Occupancy,All,Actual,22.116
+2,Other SG&A,All,Actual,12.123
+2,Depreciation & amortization,All,Actual,12.8
+2,Interest expense,All,Actual,3.1
+2,Units,Outdoors,Actual,2.853
+2,Units,Sports & Recreation,Actual,2.9857
+2,Units,Apparel,Actual,2.9415
+2,Units,Footwear,Actual,2.278
+2,Store traffic,All,Actual,10.4448
+3,Net revenue,Outdoors,Actual,101.318
+3,Net revenue,Sports & Recreation,Actual,93.76
+3,Net revenue,Apparel,Actual,75.24
+3,Net revenue,Footwear,Actual,141.383
+3,Product cost,Outdoors,Actual,68.289
+3,Product cost,Sports & Recreation,Actual,64.226
+3,Product cost,Apparel,Actual,45.52
+3,Product cost,Footwear,Actual,92.606
+3,Freight,All,Actual,8.048
+3,Store payroll,All,Actual,41.527
+3,Marketing,All,Actual,13.174
+3,Occupancy,All,Actual,22.025
+3,Other SG&A,All,Actual,12.45
+3,Depreciation & amortization,All,Actual,12.8
+3,Interest expense,All,Actual,3.1
+3,Units,Outdoors,Actual,3.1596
+3,Units,Sports & Recreation,Actual,3.3065
+3,Units,Apparel,Actual,3.2576
+3,Units,Footwear,Actual,2.5228
+3,Store traffic,All,Actual,11.4154
+4,Net revenue,Outdoors,Actual,106.678
+4,Net revenue,Sports & Recreation,Actual,98.72
+4,Net revenue,Apparel,Actual,79.22
+4,Net revenue,Footwear,Actual,148.862
+4,Product cost,Outdoors,Actual,71.901
+4,Product cost,Sports & Recreation,Actual,67.623
+4,Product cost,Apparel,Actual,47.928
+4,Product cost,Footwear,Actual,97.504
+4,Freight,All,Actual,9.353
+4,Store payroll,All,Actual,42.862
+4,Marketing,All,Actual,13.871
+4,Occupancy,All,Actual,22.2
+4,Other SG&A,All,Actual,11.853
+4,Depreciation & amortization,All,Actual,12.8
+4,Interest expense,All,Actual,3.1
+4,Units,Outdoors,Actual,3.3267
+4,Units,Sports & Recreation,Actual,3.4814
+4,Units,Apparel,Actual,3.4299
+4,Units,Footwear,Actual,2.6562
+4,Store traffic,All,Actual,12.1306
+5,Net revenue,Outdoors,Actual,114.229
+5,Net revenue,Sports & Recreation,Actual,105.708
+5,Net revenue,Apparel,Actual,84.828
+5,Net revenue,Footwear,Actual,159.399
+5,Product cost,Outdoors,Actual,76.99
+5,Product cost,Sports & Recreation,Actual,72.41
+5,Product cost,Apparel,Actual,51.321
+5,Product cost,Footwear,Actual,104.406
+5,Freight,All,Actual,10.358
+5,Store payroll,All,Actual,44.448
+5,Marketing,All,Actual,14.853
+5,Occupancy,All,Actual,22.206
+5,Other SG&A,All,Actual,11.99
+5,Depreciation & amortization,All,Actual,12.8
+5,Interest expense,All,Actual,3.1
+5,Units,Outdoors,Actual,3.5622
+5,Units,Sports & Recreation,Actual,3.7279
+5,Units,Apparel,Actual,3.6727
+5,Units,Footwear,Actual,2.8442
+5,Store traffic,All,Actual,12.9807
+6,Net revenue,Outdoors,Actual,110.546
+6,Net revenue,Sports & Recreation,Actual,102.299
+6,Net revenue,Apparel,Actual,82.093
+6,Net revenue,Footwear,Actual,154.259
+6,Product cost,Outdoors,Actual,74.508
+6,Product cost,Sports & Recreation,Actual,70.075
+6,Product cost,Apparel,Actual,49.666
+6,Product cost,Footwear,Actual,101.04
+6,Freight,All,Actual,9.278
+6,Store payroll,All,Actual,45.861
+6,Marketing,All,Actual,14.374
+6,Occupancy,All,Actual,21.987
+6,Other SG&A,All,Actual,12.162
+6,Depreciation & amortization,All,Actual,12.8
+6,Interest expense,All,Actual,3.1
+6,Units,Outdoors,Actual,3.4473
+6,Units,Sports & Recreation,Actual,3.6077
+6,Units,Apparel,Actual,3.5542
+6,Units,Footwear,Actual,2.7525
+6,Store traffic,All,Actual,12.6894
+7,Net revenue,Outdoors,Actual,121.028
+7,Net revenue,Sports & Recreation,Actual,111.999
+7,Net revenue,Apparel,Actual,89.877
+7,Net revenue,Footwear,Actual,168.886
+7,Product cost,Outdoors,Actual,81.573
+7,Product cost,Sports & Recreation,Actual,76.72
+7,Product cost,Apparel,Actual,54.375
+7,Product cost,Footwear,Actual,110.62
+7,Freight,All,Actual,9.433
+7,Store payroll,All,Actual,48.461
+7,Marketing,All,Actual,18.57
+7,Occupancy,All,Actual,22.088
+7,Other SG&A,All,Actual,12.179
+7,Depreciation & amortization,All,Actual,12.8
+7,Interest expense,All,Actual,3.1
+7,Units,Outdoors,Actual,3.7742
+7,Units,Sports & Recreation,Actual,3.9498
+7,Units,Apparel,Actual,3.8912
+7,Units,Footwear,Actual,3.0135
+7,Store traffic,All,Actual,14.0231
+8,Net revenue,Outdoors,Actual,98.165
+8,Net revenue,Sports & Recreation,Actual,90.842
+8,Net revenue,Apparel,Actual,72.898
+8,Net revenue,Footwear,Actual,136.982
+8,Product cost,Outdoors,Actual,66.163
+8,Product cost,Sports & Recreation,Actual,62.227
+8,Product cost,Apparel,Actual,44.103
+8,Product cost,Footwear,Actual,89.723
+8,Freight,All,Actual,7.356
+8,Store payroll,All,Actual,41.022
+8,Marketing,All,Actual,12.764
+8,Occupancy,All,Actual,22.17
+8,Other SG&A,All,Actual,11.833
+8,Depreciation & amortization,All,Actual,12.8
+8,Interest expense,All,Actual,3.1
+8,Units,Outdoors,Actual,3.0612
+8,Units,Sports & Recreation,Actual,3.2036
+8,Units,Apparel,Actual,3.1562
+8,Units,Footwear,Actual,2.4442
+8,Store traffic,All,Actual,11.1451
+1,Net revenue,Outdoors,Forecast,80.116
+1,Net revenue,Sports & Recreation,Forecast,74.139
+1,Net revenue,Apparel,Forecast,59.495
+1,Net revenue,Footwear,Forecast,111.796
+1,Product cost,Outdoors,Forecast,53.998
+1,Product cost,Sports & Recreation,Forecast,50.785
+1,Product cost,Apparel,Forecast,35.995
+1,Product cost,Footwear,Forecast,73.227
+1,Freight,All,Forecast,6.004
+1,Store payroll,All,Forecast,37.457
+1,Marketing,All,Forecast,10.417
+1,Occupancy,All,Forecast,22.088
+1,Other SG&A,All,Forecast,11.694
+1,Depreciation & amortization,All,Forecast,12.8
+1,Interest expense,All,Forecast,3.1
+1,Units,Outdoors,Forecast,2.4984
+1,Units,Sports & Recreation,Forecast,2.6146
+1,Units,Apparel,Forecast,2.5759
+1,Units,Footwear,Forecast,1.9948
+1,Store traffic,All,Forecast,9.2348
+2,Net revenue,Outdoors,Forecast,91.487
+2,Net revenue,Sports & Recreation,Forecast,84.662
+2,Net revenue,Apparel,Forecast,67.939
+2,Net revenue,Footwear,Forecast,127.664
+2,Product cost,Outdoors,Forecast,61.662
+2,Product cost,Sports & Recreation,Forecast,57.994
+2,Product cost,Apparel,Forecast,41.103
+2,Product cost,Footwear,Forecast,83.62
+2,Freight,All,Forecast,6.856
+2,Store payroll,All,Forecast,39.715
+2,Marketing,All,Forecast,11.896
+2,Occupancy,All,Forecast,22.116
+2,Other SG&A,All,Forecast,12.123
+2,Depreciation & amortization,All,Forecast,12.8
+2,Interest expense,All,Forecast,3.1
+2,Units,Outdoors,Forecast,2.853
+2,Units,Sports & Recreation,Forecast,2.9857
+2,Units,Apparel,Forecast,2.9415
+2,Units,Footwear,Forecast,2.278
+2,Store traffic,All,Forecast,10.4448
+3,Net revenue,Outdoors,Forecast,101.318
+3,Net revenue,Sports & Recreation,Forecast,93.76
+3,Net revenue,Apparel,Forecast,75.24
+3,Net revenue,Footwear,Forecast,141.383
+3,Product cost,Outdoors,Forecast,68.289
+3,Product cost,Sports & Recreation,Forecast,64.226
+3,Product cost,Apparel,Forecast,45.52
+3,Product cost,Footwear,Forecast,92.606
+3,Freight,All,Forecast,8.048
+3,Store payroll,All,Forecast,41.527
+3,Marketing,All,Forecast,13.174
+3,Occupancy,All,Forecast,22.025
+3,Other SG&A,All,Forecast,12.45
+3,Depreciation & amortization,All,Forecast,12.8
+3,Interest expense,All,Forecast,3.1
+3,Units,Outdoors,Forecast,3.1596
+3,Units,Sports & Recreation,Forecast,3.3065
+3,Units,Apparel,Forecast,3.2576
+3,Units,Footwear,Forecast,2.5228
+3,Store traffic,All,Forecast,11.4154
+4,Net revenue,Outdoors,Forecast,106.678
+4,Net revenue,Sports & Recreation,Forecast,98.72
+4,Net revenue,Apparel,Forecast,79.22
+4,Net revenue,Footwear,Forecast,148.862
+4,Product cost,Outdoors,Forecast,71.901
+4,Product cost,Sports & Recreation,Forecast,67.623
+4,Product cost,Apparel,Forecast,47.928
+4,Product cost,Footwear,Forecast,97.504
+4,Freight,All,Forecast,9.353
+4,Store payroll,All,Forecast,42.862
+4,Marketing,All,Forecast,13.871
+4,Occupancy,All,Forecast,22.2
+4,Other SG&A,All,Forecast,11.853
+4,Depreciation & amortization,All,Forecast,12.8
+4,Interest expense,All,Forecast,3.1
+4,Units,Outdoors,Forecast,3.3267
+4,Units,Sports & Recreation,Forecast,3.4814
+4,Units,Apparel,Forecast,3.4299
+4,Units,Footwear,Forecast,2.6562
+4,Store traffic,All,Forecast,12.1306
+5,Net revenue,Outdoors,Forecast,114.229
+5,Net revenue,Sports & Recreation,Forecast,105.708
+5,Net revenue,Apparel,Forecast,84.828
+5,Net revenue,Footwear,Forecast,159.399
+5,Product cost,Outdoors,Forecast,76.99
+5,Product cost,Sports & Recreation,Forecast,72.41
+5,Product cost,Apparel,Forecast,51.321
+5,Product cost,Footwear,Forecast,104.406
+5,Freight,All,Forecast,10.358
+5,Store payroll,All,Forecast,44.448
+5,Marketing,All,Forecast,14.853
+5,Occupancy,All,Forecast,22.206
+5,Other SG&A,All,Forecast,11.99
+5,Depreciation & amortization,All,Forecast,12.8
+5,Interest expense,All,Forecast,3.1
+5,Units,Outdoors,Forecast,3.5622
+5,Units,Sports & Recreation,Forecast,3.7279
+5,Units,Apparel,Forecast,3.6727
+5,Units,Footwear,Forecast,2.8442
+5,Store traffic,All,Forecast,12.9807
+6,Net revenue,Outdoors,Forecast,110.546
+6,Net revenue,Sports & Recreation,Forecast,102.299
+6,Net revenue,Apparel,Forecast,82.093
+6,Net revenue,Footwear,Forecast,154.259
+6,Product cost,Outdoors,Forecast,74.508
+6,Product cost,Sports & Recreation,Forecast,70.075
+6,Product cost,Apparel,Forecast,49.666
+6,Product cost,Footwear,Forecast,101.04
+6,Freight,All,Forecast,9.278
+6,Store payroll,All,Forecast,45.861
+6,Marketing,All,Forecast,14.374
+6,Occupancy,All,Forecast,21.987
+6,Other SG&A,All,Forecast,12.162
+6,Depreciation & amortization,All,Forecast,12.8
+6,Interest expense,All,Forecast,3.1
+6,Units,Outdoors,Forecast,3.4473
+6,Units,Sports & Recreation,Forecast,3.6077
+6,Units,Apparel,Forecast,3.5542
+6,Units,Footwear,Forecast,2.7525
+6,Store traffic,All,Forecast,12.6894
+7,Net revenue,Outdoors,Forecast,121.028
+7,Net revenue,Sports & Recreation,Forecast,111.999
+7,Net revenue,Apparel,Forecast,89.877
+7,Net revenue,Footwear,Forecast,168.886
+7,Product cost,Outdoors,Forecast,81.573
+7,Product cost,Sports & Recreation,Forecast,76.72
+7,Product cost,Apparel,Forecast,54.375
+7,Product cost,Footwear,Forecast,110.62
+7,Freight,All,Forecast,9.433
+7,Store payroll,All,Forecast,48.461
+7,Marketing,All,Forecast,18.57
+7,Occupancy,All,Forecast,22.088
+7,Other SG&A,All,Forecast,12.179
+7,Depreciation & amortization,All,Forecast,12.8
+7,Interest expense,All,Forecast,3.1
+7,Units,Outdoors,Forecast,3.7742
+7,Units,Sports & Recreation,Forecast,3.9498
+7,Units,Apparel,Forecast,3.8912
+7,Units,Footwear,Forecast,3.0135
+7,Store traffic,All,Forecast,14.0231
+8,Net revenue,Outdoors,Forecast,98.165
+8,Net revenue,Sports & Recreation,Forecast,90.842
+8,Net revenue,Apparel,Forecast,72.898
+8,Net revenue,Footwear,Forecast,136.982
+8,Product cost,Outdoors,Forecast,66.163
+8,Product cost,Sports & Recreation,Forecast,62.227
+8,Product cost,Apparel,Forecast,44.103
+8,Product cost,Footwear,Forecast,89.723
+8,Freight,All,Forecast,7.356
+8,Store payroll,All,Forecast,41.022
+8,Marketing,All,Forecast,12.764
+8,Occupancy,All,Forecast,22.17
+8,Other SG&A,All,Forecast,11.833
+8,Depreciation & amortization,All,Forecast,12.8
+8,Interest expense,All,Forecast,3.1
+8,Units,Outdoors,Forecast,3.0612
+8,Units,Sports & Recreation,Forecast,3.2036
+8,Units,Apparel,Forecast,3.1562
+8,Units,Footwear,Forecast,2.4442
+8,Store traffic,All,Forecast,11.1451
+9,Net revenue,Outdoors,Forecast,94.150675
+9,Net revenue,Sports & Recreation,Forecast,87.127046
+9,Net revenue,Apparel,Forecast,69.917337
+9,Net revenue,Footwear,Forecast,131.38078
+9,Product cost,Outdoors,Forecast,63.080952
+9,Product cost,Sports & Recreation,Forecast,59.682027
+9,Product cost,Apparel,Forecast,42.299989
+9,Product cost,Footwear,Forecast,86.054411
+9,Freight,All,Forecast,7.055235
+9,Store payroll,All,Forecast,40.296145
+9,Marketing,All,Forecast,12.242427
+9,Occupancy,All,Forecast,22.0
+9,Other SG&A,All,Forecast,12.0
+9,Depreciation & amortization,All,Forecast,12.8
+9,Interest expense,All,Forecast,3.1
+9,Units,Outdoors,Forecast,2.93605
+9,Units,Sports & Recreation,Forecast,3.072618
+9,Units,Apparel,Forecast,3.027118
+9,Units,Footwear,Forecast,2.344281
+9,Store traffic,All,Forecast,10.756207
+10,Net revenue,Outdoors,Forecast,119.020665
+10,Net revenue,Sports & Recreation,Forecast,110.141738
+10,Net revenue,Apparel,Forecast,88.386068
+10,Net revenue,Footwear,Forecast,166.085137
+10,Product cost,Outdoors,Forecast,79.743846
+10,Product cost,Sports & Recreation,Forecast,75.44709
+10,Product cost,Apparel,Forecast,53.473571
+10,Product cost,Footwear,Forecast,108.785765
+10,Freight,All,Forecast,8.918882
+10,Store payroll,All,Forecast,45.599264
+10,Marketing,All,Forecast,15.476275
+10,Occupancy,All,Forecast,22.0
+10,Other SG&A,All,Forecast,12.0
+10,Depreciation & amortization,All,Forecast,12.8
+10,Interest expense,All,Forecast,3.1
+10,Units,Outdoors,Forecast,3.711611
+10,Units,Sports & Recreation,Forecast,3.884253
+10,Units,Apparel,Forecast,3.826734
+10,Units,Footwear,Forecast,2.963525
+10,Store traffic,All,Forecast,13.597469
+11,Net revenue,Outdoors,Forecast,158.102077
+11,Net revenue,Sports & Recreation,Forecast,146.307681
+11,Net revenue,Apparel,Forecast,117.408358
+11,Net revenue,Footwear,Forecast,220.620555
+11,Product cost,Outdoors,Forecast,105.928392
+11,Product cost,Sports & Recreation,Forecast,100.220762
+11,Product cost,Apparel,Forecast,71.032057
+11,Product cost,Footwear,Forecast,144.506463
+11,Freight,All,Forecast,11.84747
+11,Store payroll,All,Forecast,53.932738
+11,Marketing,All,Forecast,20.558038
+11,Occupancy,All,Forecast,22.0
+11,Other SG&A,All,Forecast,12.0
+11,Depreciation & amortization,All,Forecast,12.8
+11,Interest expense,All,Forecast,3.1
+11,Units,Outdoors,Forecast,4.930349
+11,Units,Sports & Recreation,Forecast,5.159679
+11,Units,Apparel,Forecast,5.083274
+11,Units,Footwear,Forecast,3.936623
+11,Store traffic,All,Forecast,18.06231
+12,Net revenue,Outdoors,Forecast,90.59782
+12,Net revenue,Sports & Recreation,Forecast,83.839233
+12,Net revenue,Apparel,Forecast,67.278947
+12,Net revenue,Footwear,Forecast,126.423015
+12,Product cost,Outdoors,Forecast,60.700539
+12,Product cost,Sports & Recreation,Forecast,57.429875
+12,Product cost,Apparel,Forecast,40.703763
+12,Product cost,Footwear,Forecast,82.807075
+12,Freight,All,Forecast,6.789
+12,Store payroll,All,Forecast,39.538556
+12,Marketing,All,Forecast,11.780448
+12,Occupancy,All,Forecast,22.0
+12,Other SG&A,All,Forecast,12.0
+12,Depreciation & amortization,All,Forecast,12.8
+12,Interest expense,All,Forecast,3.1
+12,Units,Outdoors,Forecast,2.825256
+12,Units,Sports & Recreation,Forecast,2.95667
+12,Units,Apparel,Forecast,2.912887
+12,Units,Footwear,Forecast,2.255818
+12,Store traffic,All,Forecast,10.350313

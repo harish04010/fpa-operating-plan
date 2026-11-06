@@ -1,0 +1,12 @@
+line,group,sign,sort
+Net revenue,Revenue,1,1
+Product cost,Cost of sales,-1,2
+Freight,Cost of sales,-1,3
+Store payroll,SG&A,-1,4
+Marketing,SG&A,-1,5
+Occupancy,SG&A,-1,6
+Other SG&A,SG&A,-1,7
+Depreciation & amortization,Below EBITDA,-1,8
+Interest expense,Below EBITDA,-1,9
+Units,Volume,1,10
+Store traffic,Volume,1,11

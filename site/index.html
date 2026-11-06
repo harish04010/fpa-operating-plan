@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>FY2026 operating plan: September year to date</title>
+<meta name="description" content="Driver-based plan, budget vs actual, price/volume/mix and EBITDA bridges, and a live 8+4 forecast for a $5B retailer.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f7f8;--surface:#fff;--ink:#121a24;--soft:#5c6675;--rule:#dfe3e8;--plan:#9aa4b1;--act:#1b4965;--fc:#c77d14;--up:#2a7a52;--down:#b23a3a;
+color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root{--paper:#0f141a;--surface:#161d26;--ink:#e7ebf0;--soft:#9aa5b4;--rule:#283241;--plan:#6b7583;--act:#7fb5d9;--fc:#e6a44a;--up:#5cc28d;--down:#eb7c7c;color-scheme:dark}}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Inter,"Helvetica Neue",Arial,sans-serif}
+main{max-width:1140px;margin:0 auto;padding:40px clamp(16px,3vw,36px) 64px}
+h1,h2,.big{font-family:"Inter Tight",Inter,sans-serif}
+h1{font-size:clamp(2rem,4.4vw,2.9rem);line-height:1.05;margin:0 0 10px;letter-spacing:-.02em}
+h2{font-size:1.35rem;margin:0 0 10px;letter-spacing:-.01em}
+.soft{color:var(--soft)}.up{color:var(--up)}.down{color:var(--down)}
+.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+section{margin-top:44px}
+.lede{max-width:68ch;color:var(--soft);font-size:1.1rem;margin:0}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin-top:24px}
+.kpi{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px}
+.kpi .big{font-size:1.9rem;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1;margin:4px 0}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:18px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:860px){.grid2{grid-template-columns:1fr}}
+svg{width:100%;height:auto;display:block}
+.axis{fill:var(--soft);font-size:11px;font-family:inherit}
+.legend{display:flex;gap:16px;font-size:.86rem;color:var(--soft);margin-top:6px;flex-wrap:wrap}
+.sw{display:inline-block;width:16px;height:3px;vertical-align:4px;margin-right:6px}
+.memo p{margin:0 0 10px;max-width:80ch}
+.memo #memo p::before{content:"—";color:var(--soft);margin-right:8px}
+.sim{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.8fr);gap:24px}
+@media (max-width:860px){.sim{grid-template-columns:1fr}}
+.slider{margin-bottom:16px}
+.slider label{display:flex;justify-content:space-between;font-weight:500}
+.slider input{width:100%;accent-color:var(--act)}
+.presets{display:flex;gap:8px;margin-bottom:18px;flex-wrap:wrap}
+.presets button{font:inherit;padding:6px 14px;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);cursor:pointer}
+.presets button[aria-pressed="true"]{background:var(--act);color:#fff;border-color:var(--act)}
+.result .big{font-size:2.6rem;font-weight:700}
+.gauge{height:10px;background:var(--rule);border-radius:5px;position:relative;margin:14px 0 6px}
+.gauge span{position:absolute;top:-4px;width:3px;height:18px;border-radius:2px}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;border-bottom:1px solid var(--rule);text-align:left}
+thead th{font-size:.82rem;color:var(--soft);font-weight:600}
+tr.strong td{font-weight:600}
+.pill{font-size:.76rem;font-weight:600;padding:2px 8px;border-radius:999px}
+.pill.fav{background:color-mix(in srgb,var(--up) 15%,transparent);color:var(--up)}
+.pill.unfav{background:color-mix(in srgb,var(--down) 15%,transparent);color:var(--down)}
+.foot{margin-top:56px;padding-top:14px;border-top:1px solid var(--rule);font-size:.9rem;color:var(--soft)}
+</style>
+</head>
+<body>
+<main>
+<p class="soft" style="margin:0 0 6px;font-weight:600">FP&amp;A · Ridgeline Outfitters (case study) · fiscal year Feb 2026 – Jan 2027</p>
+<h1>Revenue beat plan. Margin didn't.</h1>
+<p class="lede" id="lede"></p>
+<div class="kpis" id="kpis"></div>
+
+<section class="card"><h2>Net revenue by month</h2>
+<svg id="rev" viewBox="0 0 900 260" role="img" aria-label="Monthly revenue: budget, actual and forecast"></svg>
+<div class="legend"><span><i class="sw" style="background:var(--plan)"></i>Budget</span><span><i class="sw" style="background:var(--act)"></i>Actual (Feb–Sep)</span><span><i class="sw" style="background:var(--fc)"></i>Forecast (Oct–Jan)</span></div></section>
+
+<section class="grid2">
+  <div class="card"><h2>What moved revenue</h2><p class="soft" style="margin:0 0 6px">Budget to actual, year to date ($M)</p><svg id="wf1" viewBox="0 0 520 250"></svg></div>
+  <div class="card"><h2>What moved EBITDA</h2><p class="soft" style="margin:0 0 6px">Budget to actual, year to date ($M)</p><svg id="wf2" viewBox="0 0 520 250"></svg></div>
+</section>
+
+<section class="card"><h2>Run the forecast</h2>
+<p class="soft" style="margin:0 0 16px">The last four months, October to January, re-run on the plan's drivers at measured run-rates. Move a lever and full-year EBITDA recalculates with the same math as the workbook.</p>
+<div class="sim"><div>
+  <div class="presets" id="presets"></div>
+  <div id="sliders"></div></div>
+  <div class="result"><p class="soft" style="margin:0">Full-year EBITDA</p><div class="big" id="ebitda"></div><div id="gap"></div>
+  <div class="gauge" id="gauge"></div><p class="soft" style="font-size:.85rem;margin:0" id="gaugelab"></p></div>
+</div></section>
+
+<section><h2>Budget vs actual, year to date</h2><div class="scroll"><table id="bva"></table></div></section>
+
+<section class="card memo"><h2>Commentary</h2><div id="memo"></div>
+<p class="soft" style="font-size:.88rem">Each sentence is a formula in the workbook; it rewrites itself when the numbers change.</p></section>
+
+<footer class="foot">All figures are generated for this case study. The source of truth is an Excel workbook with 1,434 formulas (driver-based budget, BvA, bridges, 8+4 forecast, scenarios); this page is exported from it. A Power BI star schema with DAX measures ships alongside.</footer>
+</main>
+<script type="module">
+const d = await fetch("data.json").then(r => r.json());
+const k = d.kpi, M = v => "$" + v.toLocaleString("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "M";
+const sM = v => (v >= 0 ? "+" : "−") + "$" + Math.abs(v).toFixed(1) + "M", pct = (v, dp = 1) => (v >= 0 ? "+" : "−") + Math.abs(v * 100).toFixed(dp) + "%";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const cls = v => v >= 0 ? "up" : "down";
+
+document.getElementById("lede").textContent = `September year to date: revenue ${pct(k.ytd_rev_var)} vs plan on price and mix, despite weak spring traffic. EBITDA ${sM(k.ytd_ebitda - k.ytd_ebitda_bud)} vs plan, but freight, overtime and marketing ate most of the price gain, and the margin slipped.`;
+const marg = k.ytd_ebitda / k.ytd_rev, margB = k.ytd_ebitda_bud / (k.ytd_rev / (1 + k.ytd_rev_var));
+document.getElementById("kpis").innerHTML = [
+  ["YTD revenue", M(k.ytd_rev), `<span class="${cls(k.ytd_rev_var)}">${pct(k.ytd_rev_var)}</span> vs plan`],
+  ["YTD EBITDA", M(k.ytd_ebitda), `<span class="${cls(k.ytd_ebitda - k.ytd_ebitda_bud)}">${sM(k.ytd_ebitda - k.ytd_ebitda_bud)}</span> vs plan`],
+  ["EBITDA margin", (marg * 100).toFixed(1) + "%", `<span class="${cls(marg - margB)}">${((marg - margB) * 100 >= 0 ? "+" : "−") + Math.abs((marg - margB) * 100).toFixed(2)} pts</span> vs plan`],
+  ["Gross margin", (k.gm * 100).toFixed(1) + "%", `<span class="${cls(k.gm - k.gm_bud)}">${((k.gm - k.gm_bud) * 100 >= 0 ? "+" : "−") + Math.abs((k.gm - k.gm_bud) * 100).toFixed(2)} pts</span> vs plan`],
+].map(([l, v, s]) => `<div class="kpi"><span class="soft">${l}</span><div class="big">${v}</div><span class="soft">${s}</span></div>`).join("");
+
+// monthly revenue
+(() => {
+  const W = 900, H = 260, L = 50, R = 12, T = 14, B = 28, r = d.revenue, n = 12;
+  const all = [...r.budget, ...r.forecast], lo = Math.floor(Math.min(...all) / 100) * 100 - 50, hi = Math.ceil(Math.max(...all) / 100) * 100;
+  const x = i => L + (W - L - R) * i / (n - 1), y = v => T + (H - T - B) * (1 - (v - lo) / (hi - lo));
+  const path = (arr, from = 0) => arr.map((v, i) => `${i ? "L" : "M"}${x(i + from)},${y(v)}`).join("");
+  let o = "";
+  for (let v = Math.ceil(lo / 100) * 100; v <= hi; v += 100) o += `<line x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}" stroke="var(--rule)"/><text class="axis" x="${L - 6}" y="${y(v) + 4}" text-anchor="end">${v}</text>`;
+  o += `<rect x="${x(d.actual_months - 1)}" y="${T}" width="${x(11) - x(d.actual_months - 1)}" height="${H - T - B}" fill="var(--fc)" opacity=".06"/>`;
+  o += `<path d="${path(r.budget)}" fill="none" stroke="var(--plan)" stroke-width="2" stroke-dasharray="6 5"/>`;
+  o += `<path d="${path(r.forecast.slice(d.actual_months - 1), d.actual_months - 1)}" fill="none" stroke="var(--fc)" stroke-width="3"/>`;
+  o += `<path d="${path(r.actual)}" fill="none" stroke="var(--act)" stroke-width="3"/>`;
+  r.actual.forEach((v, i) => o += `<circle cx="${x(i)}" cy="${y(v)}" r="3.5" fill="var(--act)"><title>${d.months[i]}: ${M(v)}</title></circle>`);
+  d.months.forEach((m, i) => o += `<text class="axis" x="${x(i)}" y="${H - 8}" text-anchor="middle">${m}</text>`);
+  document.getElementById("rev").innerHTML = o;
+})();
+
+function waterfall(id, steps, floorPad) {
+  const W = 520, H = 250, L = 44, R = 8, T = 18, B = 46, n = steps.length;
+  let run = steps[0].v, pts = [{ lo: 0, hi: run, total: true }];
+  steps.slice(1, -1).forEach(s => { const a = run, b = run + s.v; pts.push({ lo: Math.min(a, b), hi: Math.max(a, b), v: s.v }); run = b; });
+  pts.push({ lo: 0, hi: steps[n - 1].v, total: true });
+  const vals = pts.flatMap(p => p.total ? [p.hi] : [p.lo, p.hi]);
+  const lo = Math.min(...vals) - floorPad, hi = Math.max(...vals) + floorPad * 0.4;
+  const y = v => T + (H - T - B) * (1 - (Math.max(v, lo) - lo) / (hi - lo)), bw = (W - L - R) / n * 0.62, x = i => L + (W - L - R) * (i + 0.5) / n;
+  let o = `<text class="axis" x="${L}" y="11">axis starts at ${Math.round(lo)}</text>`;
+  pts.forEach((p, i) => {
+    const col = p.total ? "var(--act)" : p.v >= 0 ? "var(--up)" : "var(--down)";
+    o += `<rect x="${x(i) - bw / 2}" y="${y(p.hi)}" width="${bw}" height="${Math.max(1.5, y(p.lo) - y(p.hi))}" fill="${col}" rx="2"/>`;
+    const lab = p.total ? Math.round(p.hi).toLocaleString() : (p.v >= 0 ? "+" : "−") + Math.abs(p.v).toFixed(1);
+    o += `<text class="axis" x="${x(i)}" y="${y(p.hi) - 5}" text-anchor="middle" style="fill:var(--ink);font-weight:600">${lab}</text>`;
+    const words = steps[i].step.split(" "); let line = "", lines = [];
+    words.forEach(w => { if ((line + " " + w).trim().length > 11) { lines.push(line.trim()); line = w; } else line += " " + w; }); lines.push(line.trim());
+    lines.slice(0, 3).forEach((l, j) => o += `<text class="axis" x="${x(i)}" y="${H - B + 14 + j * 12}" text-anchor="middle">${esc(l)}</text>`);
+  });
+  document.getElementById(id).innerHTML = o;
+}
+waterfall("wf1", d.rev_bridge, 60);
+waterfall("wf2", d.ebitda_bridge, 12);
+
+// live forecast: same formula as the workbook's Scenarios sheet
+const sm = d.scenario_model, c = sm.components;
+const levers = [["traffic", "Store traffic", 0.9, 1.1], ["aur", "Average unit retail", 0.95, 1.05], ["freight", "Freight cost per unit", 0.85, 1.2], ["wage", "Store wages", 0.95, 1.08]];
+const val = { traffic: 1, aur: 1, freight: 1, wage: 1 };
+const ebitda = ({ traffic: t, aur: a, freight: f, wage: w }) => {
+  const rev = c.rev * t * a;
+  return sm.ytd.ebitda + rev - c.cost * t * a - c.units * t * sm.fpu * sm.freight_rr * f - (c.pay_fixed + c.pay_var * t) * w - rev * sm.marketing_pct - sm.fixed_4m;
+};
+document.getElementById("sliders").innerHTML = levers.map(([key, lab, mn, mx]) => `<div class="slider"><label for="s-${key}"><span>${lab}, Oct–Jan</span><output id="o-${key}">×1.00</output></label><input id="s-${key}" type="range" min="${mn}" max="${mx}" step="0.005" value="1"></div>`).join("");
+const names = Object.keys(sm.scenarios);
+function setPreset(n) { const [t, a, f, w] = sm.scenarios[n]; Object.assign(val, { traffic: t, aur: a, freight: f, wage: w }); levers.forEach(([key]) => document.getElementById(`s-${key}`).value = val[key]); update(n); }
+document.getElementById("presets").innerHTML = names.map(n => `<button data-n="${n}">${n}</button>`).join("");
+document.querySelectorAll("#presets button").forEach(b => b.onclick = () => setPreset(b.dataset.n));
+levers.forEach(([key]) => document.getElementById(`s-${key}`).oninput = e => { val[key] = +e.target.value; update(null); });
+const scen = names.map(n => ebitda(Object.fromEntries(["traffic", "aur", "freight", "wage"].map((key, i) => [key, sm.scenarios[n][i]]))));
+function update(preset) {
+  levers.forEach(([key]) => document.getElementById(`o-${key}`).textContent = "×" + val[key].toFixed(3));
+  document.querySelectorAll("#presets button").forEach(b => b.setAttribute("aria-pressed", b.dataset.n === preset));
+  const e = ebitda(val), gap = e - k.fy_budget_ebitda;
+  document.getElementById("ebitda").textContent = M(e);
+  document.getElementById("gap").innerHTML = `<span class="${cls(gap)}" style="font-weight:600">${sM(gap)}</span> <span class="soft">vs the ${M(k.fy_budget_ebitda)} budget</span>`;
+  const lo = 480, hi = 680, pos = v => Math.min(100, Math.max(0, (v - lo) / (hi - lo) * 100));
+  document.getElementById("gauge").innerHTML = `<span style="left:${pos(k.fy_budget_ebitda)}%;background:var(--plan)"></span>` +
+    names.map((n, i) => `<span title="${n}" style="left:${pos(scen[i])}%;background:var(--soft);opacity:.5"></span>`).join("") +
+    `<span style="left:${pos(e)}%;background:${gap >= 0 ? "var(--up)" : "var(--down)"};width:5px"></span>`;
+  document.getElementById("gaugelab").textContent = `Grey ticks: budget and the three saved scenarios (${names.map((n, i) => `${n} ${M(scen[i])}`).join(", ")}).`;
+}
+setPreset("Base");
+
+document.getElementById("bva").innerHTML = `<thead><tr><th>Line</th><th class="num">Budget</th><th class="num">Actual</th><th class="num">Variance</th><th></th></tr></thead><tbody>` +
+  d.bva.map(r => { const f = v => r.pct ? (v * 100).toFixed(1) + "%" : v.toLocaleString("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const strong = ["Net revenue", "Gross profit", "EBITDA", "Net income"].includes(r.line);
+    return `<tr class="${strong ? "strong" : ""}"><td>${esc(r.line)}</td><td class="num">${f(r.bud)}</td><td class="num">${f(r.act)}</td><td class="num">${r.pct ? ((r.var >= 0 ? "+" : "−") + Math.abs(r.var * 100).toFixed(2) + " pts") : f(r.var)}</td><td>${r.fav === "-" ? "" : `<span class="pill ${r.fav === "Fav" ? "fav" : "unfav"}">${r.fav}</span>`}</td></tr>`; }).join("") + "</tbody>";
+document.getElementById("memo").innerHTML = d.commentary.map(s => `<p>${esc(s)}</p>`).join("");
+</script>
+</body>
+</html>
